@@ -1,0 +1,72 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.nav {
+  z-index: 999;
+}
+
+#home {
+  background-image: url(./../img/camera-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ourwork .custom-image::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  opacity: 0.8;
+  background-color: #3c4652;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+#ourwork .custom-image:hover::after {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+#ourwork .custom-image::before {
+  content: "\f03e";
+  font-family: "Font Awesome\ 5 Free";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 0;
+  width: 0;
+  background-color: aliceblue;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-size: 0;
+  transition: all 0.3s;
+  transition-delay: 0.3s;
+  z-index: 3;
+}
+
+#ourwork .custom-image:hover::before {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+}
+
+/* Map */
+#visiteLocation {
+  background-image: url(./../img/map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Contact */
+textarea {
+  resize: none;
+}

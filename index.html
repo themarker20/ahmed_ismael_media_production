@@ -1,0 +1,489 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body class="overflow-x-hidden">
+        <!-- Fixed Header -->
+        <div class="fixed bg-blue-300 w-full p-2 nav">
+            <div class="m-auto mx-2 grid grid-flow-col">
+                <div class="text-center place-self-start md:place-self-center">
+                    <h1
+                        class="text-xl sm:text-2xl font-bold text-gray-900 md:text-3xl"
+                    >
+                        Ahmed Ismael
+                    </h1>
+                </div>
+                <div
+                    class="text-2xl place-self-center md:place-self-end flex gap-4 md:gap-8 self-center"
+                >
+                    <a
+                        class="text-black duration-300 hover:text-white cursor-pointer"
+                    >
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a
+                        class="text-black duration-300 hover:text-white cursor-pointer"
+                    >
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a
+                        class="text-black duration-300 hover:text-white cursor-pointer"
+                    >
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Home -->
+        <section id="home" class="py-12 relative w-full h-[550px]">
+            <div
+                class="container h-full relative z-20 m-auto mx-2 flex flex-col justify-center gap-10 text-white"
+            >
+                <h1
+                    class="text-2xl md:text-5xl shadow-xl font-bold text-start md:text-center"
+                >
+                    Ahmed Ben Ismael
+                </h1>
+                <p
+                    class="text-md md:text-xl sm:w-2/3 text-start sm:text-center sm:w-full"
+                >
+                    Egypt most known Media production services Providor, Online
+                    Services, Advertizing and Web Technology Services, and mush
+                    more.
+                </p>
+            </div>
+
+            <div
+                class="overlay absolute top-0 left-0 h-full w-full bg-black opacity-50"
+            ></div>
+        </section>
+
+        <!-- Our Work -->
+        <section id="ourwork" class="bg-blue-300 py-16">
+            <div class="m-auto mx-2">
+                <h3 class="text-3xl py-2">Our Work</h3>
+                <div class="grid grid-cols-6 md:grid-col-12 gap-4 py-6">
+                    <div
+                        class="col-span-6 sm:col-span-2 custom-image relative cursor-pointer duration-300"
+                    >
+                        <img
+                            class="rounded-md shadow-md w-full h-full object-cover"
+                            src="./img/music-video-production-feat.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="col-span-6 sm:col-span-2 custom-image relative cursor-pointer duration-300"
+                    >
+                        <img
+                            class="rounded-md shadow-md w-full h-full object-cover"
+                            src="./img/gimabl-stabilizer-filmmaker-1024x683.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="col-span-6 sm:col-span-2 custom-image relative cursor-pointer duration-300"
+                    >
+                        <img
+                            class="rounded-md shadow-md w-full h-full object-cover"
+                            src="./img/music-video-production-onset-camera-recording-1024x576.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="col-span-6 sm:col-span-3 custom-image relative cursor-pointer duration-300"
+                    >
+                        <img
+                            class="rounded-md shadow-md w-full h-full object-cover"
+                            src="./img/music-video-recording.webp"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="col-span-6 sm:col-span-3 custom-image relative cursor-pointer duration-300"
+                    >
+                        <img
+                            class="rounded-md shadow-md w-full h-full object-cover"
+                            src="./img/video-prod-studios.jpg"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About US -->
+        <section
+            id="aboutus"
+            class="bg-blue-100 h-[350px] text-center py-12 flex align-center justify-center"
+        >
+            <div
+                class="flex flex-col align-center gap-8 text-sm md:text-xl w-8/12 md:full"
+            >
+                <h3 class="text-xl py-6">About us</h3>
+                <p>
+                    We are the best advertizing agency you can work with, here
+                    you can find all what you need of services like Video
+                    Editing, Web Design, Marketing Solutions, Media Production,
+                    and Every Technical Need.
+                </p>
+                <p>This is not all, Contact us and you will find more.</p>
+            </div>
+        </section>
+        <!-- Services -->
+        <section id="services" class="bg-blue-100 py-12">
+            <h2 class="text-3xl text-center py-2">Our Services</h2>
+            <div
+                class="container m-auto w-10/12 flex flex-col md:flex-row md:gap-8 gap-12 flex-wrap align-center justify-center py-12 px-4"
+            >
+                <div class="text-center flex align-center flex-col gap-2">
+                    <div class="w-[280px] h-[300px] m-auto">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="./img/crop-5.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <h4>Video Editing</h4>
+                    <p class="text-sm">Your Dream Video Start Here with us.</p>
+                </div>
+                <div class="text-center flex align-center flex-col gap-2">
+                    <div class="w-[280px] h-[300px] m-auto">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="./img/crop-4.webp"
+                            alt=""
+                        />
+                    </div>
+                    <h4>Web Services</h4>
+                    <p class="text-sm">
+                        Your First Web Site will be from our code.
+                    </p>
+                </div>
+                <div class="text-center flex align-center flex-col gap-2">
+                    <div class="w-[280px] h-[300px] m-auto">
+                        <img
+                            class="w-full h-full object-cover rounded-md"
+                            src="./img/crop-1.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <h4>Media Production</h4>
+                    <p class="text-sm">
+                        We can do full media production projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Slider -->
+        <!-- component -->
+        <div class="max-full mx-auto bg-gray-500 h-96">
+            <div id="default-carousel" class="relative" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="overflow-hidden relative h-96">
+                    <!-- Item 1 -->
+                    <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                    >
+                        <div
+                            class="absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-4 md:flex-row"
+                        >
+                            <div
+                                class="flex flex-col items-center justify-center gap-4 mx-8"
+                            >
+                                <img
+                                    src="./img/person-1.png"
+                                    alt=""
+                                    class="w-[100px] h-[100px] rounded-full shadow-md"
+                                />
+                                <h5
+                                    class="text-white md:text-2xl sm:text-3xl dark:text-gray-800"
+                                >
+                                    Billy Batrick
+                                </h5>
+                            </div>
+                            <div class="text-center text-white">
+                                <p
+                                    class="w-1/2 md:w-full m-auto text-xs md:text-xl"
+                                >
+                                    "This it the best place I've ben working
+                                    with. We will work again soon."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                    >
+                        <div
+                            class="absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-4 md:flex-row"
+                        >
+                            <div
+                                class="flex flex-col items-center justify-center gap-4 mx-8"
+                            >
+                                <img
+                                    src="./img/person-2.png"
+                                    alt=""
+                                    class="w-[100px] h-[100px] rounded-full shadow-md"
+                                />
+                                <h5
+                                    class="text-white md:text-2xl sm:text-3xl dark:text-gray-800"
+                                >
+                                    Billy Batrick
+                                </h5>
+                            </div>
+                            <div class="text-center text-white">
+                                <p
+                                    class="w-1/2 md:w-full m-auto text-xs md:text-xl"
+                                >
+                                    "This it the best place I've ben working
+                                    with. We will work again soon."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                    >
+                        <div
+                            class="absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-4 md:flex-row"
+                        >
+                            <div
+                                class="flex flex-col items-center justify-center gap-4 mx-8"
+                            >
+                                <img
+                                    src="./img/person-3.png"
+                                    alt=""
+                                    class="w-[100px] h-[100px] rounded-full shadow-md"
+                                />
+                                <h5
+                                    class="text-white md:text-2xl sm:text-3xl dark:text-gray-800"
+                                >
+                                    Billy Batrick
+                                </h5>
+                            </div>
+                            <div class="text-center text-white">
+                                <p
+                                    class="w-1/2 md:w-full m-auto text-xs md:text-xl"
+                                >
+                                    "This it the best place I've ben working
+                                    with. We will work again soon."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div
+                        class="hidden duration-700 ease-in-out"
+                        data-carousel-item
+                    >
+                        <div
+                            class="absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-4 md:flex-row"
+                        >
+                            <div
+                                class="flex flex-col items-center justify-center gap-4 mx-8"
+                            >
+                                <img
+                                    src="./img/person-2.png"
+                                    alt=""
+                                    class="w-[100px] h-[100px] rounded-full shadow-md"
+                                />
+                                <h5
+                                    class="text-white md:text-2xl sm:text-3xl dark:text-gray-800"
+                                >
+                                    Billy Batrick
+                                </h5>
+                            </div>
+                            <div class="text-center text-white">
+                                <p
+                                    class="w-1/2 md:w-full m-auto text-xs md:text-xl"
+                                >
+                                    "This it the best place I've ben working
+                                    with. We will work again soon."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slider indicators -->
+                    <div
+                        class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2"
+                    >
+                        <button
+                            type="button"
+                            class="w-3 h-3 rounded-full"
+                            aria-current="false"
+                            aria-label="Slide 1"
+                            data-carousel-slide-to="0"
+                        ></button>
+                        <button
+                            type="button"
+                            class="w-3 h-3 rounded-full"
+                            aria-current="false"
+                            aria-label="Slide 2"
+                            data-carousel-slide-to="1"
+                        ></button>
+                        <button
+                            type="button"
+                            class="w-3 h-3 rounded-full"
+                            aria-current="false"
+                            aria-label="Slide 3"
+                            data-carousel-slide-to="2"
+                        ></button>
+                        <button
+                            type="button"
+                            class="w-3 h-3 rounded-full"
+                            aria-current="false"
+                            aria-label="Slide 4"
+                            data-carousel-slide-to="3"
+                        ></button>
+                    </div>
+                    <!-- Slider controls -->
+                    <button
+                        type="button"
+                        class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-prev
+                    >
+                        <span
+                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                        >
+                            <svg
+                                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M15 19l-7-7 7-7"
+                                ></path>
+                            </svg>
+                            <span class="hidden">Previous</span>
+                        </span>
+                    </button>
+                    <button
+                        type="button"
+                        class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-next
+                    >
+                        <span
+                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+                        >
+                            <svg
+                                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M9 5l7 7-7 7"
+                                ></path>
+                            </svg>
+                            <span class="hidden">Next</span>
+                        </span>
+                    </button>
+                </div>
+                <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+            </div>
+        </div>
+
+        <!-- Visite Location -->
+        <section
+            id="visiteLocation"
+            class="py-12 bg-gradient-to-blue h-[400px] relative"
+        >
+            <div
+                class="absolute top-1/2 right-1/2 -translate-y-1/2 translate-x-3/2 w-[300px] h-[100px] bg-gray-700 flex items-center px-4 text-white text-1xl md:text-2xl md:right-[10%] md:translate-x-0 rounded-md"
+            >
+                This is our location.
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contactForm" class="py-12 bg-blue-400 w-full">
+            <div
+                class="container mx-auto flex gap-8 md:gap-4 flex-col items-center md:flex-row justify-arround"
+            >
+                <div class="w-10/12 md:w-1/2 h-[300px] order-2 md:order-1">
+                    <form class="grid grid-cols-6 gap-4">
+                        <input
+                            class="col-span-3 p-2 rounded-md bg-blue-100 text-black outline-none border-none focus:border-b"
+                            type="email"
+                            placeholder="Email"
+                        />
+                        <input
+                            class="col-span-3 p-2 rounded-md bg-blue-100 text-black outline-none border-none focus:border-b"
+                            type="text"
+                            placeholder="Name"
+                        />
+                        <textarea
+                            class="col-span-6 p-2 rounded-md bg-blue-100 text-black outline-none border-none focus:border-b"
+                            cols="10"
+                            rows="5"
+                            placeholder="Your Message"
+                        ></textarea>
+                        <button
+                            class="col-span-6 place-self-center md:place-self-end p-2 px-6 rounded-md bg-blue-100 text-black outline-none border-none focus:border-b bg-red-500 hover:bg-red-60"
+                        >
+                            Send
+                        </button>
+                    </form>
+                </div>
+                <div
+                    class="w-2/3 md:w-1/2 h-[130px] order-1 md:order-2 text-center md:text-left my-8 md:my-0"
+                >
+                    <h3 class="font-bold text-xl md:text-2xl py-2">
+                        Contact: Ahmed Ben Ismael
+                    </h3>
+                    <p>Throw this form you can send what ever you want.</p>
+                    <p>
+                        Questions, Orders, Advices, and Information about what
+                        will come next.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer
+            class="p-4 text-center bg-gray-800 w-full text-white text-sm md:text-xl"
+        >
+            <p>
+                Code and Design with
+                <strong>Ahmed Ben Ismael</strong> Copyrights &copy; reserved
+                2024.
+            </p>
+        </footer>
+    </body>
+</html>
